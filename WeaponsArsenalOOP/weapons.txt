@@ -1,0 +1,105 @@
+Type->Bats
+Name:Basketball bat
+Weight:1.5
+Cost:70
+Quality:Factory new
+Is one-handed?:true
+Length:0.9
+Is with spikes?:false
+Material:Tree
+
+Type->Blades
+Name:Knife
+Weight:0.56
+Cost:40
+Quality:Minimal wear
+Is one-handed?:true
+Length:0.3
+Sharpness:100.0
+
+Type->Arrow weapons
+Name:Bow
+Weight:0.7
+Cost:200
+Quality:Well worn
+Range:65.0
+Capacity:1
+Arrows{
+Is poisoned? :true
+Length:23.0
+Is poisoned? :true
+Length:23.0
+Is poisoned? :true
+Length:23.0
+Is poisoned? :true
+Length:23.0
+Is poisoned? :true
+Length:23.0
+Is poisoned? :true
+Length:23.0
+Is poisoned? :true
+Length:23.0
+Is poisoned? :true
+Length:23.0
+Is poisoned? :true
+Length:23.0
+Is poisoned? :true
+Length:23.0
+Is poisoned? :true
+Length:23.0
+Is poisoned? :false
+Length:433.0
+Is poisoned? :false
+Length:433.0
+Is poisoned? :false
+Length:433.0
+}
+
+Type->Automatic guns
+Name:AK-47
+Weight:3.47
+Cost:1000
+Quality:Factory new
+Range:350.0
+Capacity:30
+Calibre:5.0
+Rapidity:8.3
+
+Type->Pistols
+Name:Dual berettas
+Weight:1.15
+Cost:400
+Quality:Minimal wear
+Range:80.0
+Capacity:30
+Bullets{
+Length:20.2
+Thickness:10.43
+Is armor piercing?:true
+Length:253.0
+Thickness:10.43
+Is armor piercing?:false
+}
+Calibre:9.0
+Is one-handed?:false
+
+Type->Shotguns
+Name:Spas-12
+Weight:4.4
+Cost:650
+Quality:Field tested
+Range:50.0
+Capacity:8
+Calibre:18.5
+Barrels count:1
+
+Type->Sniper rifles
+Name:AWP
+Weight:6.5
+Cost:1400
+Quality:Minimal wear
+Range:1500.0
+Capacity:10
+Calibre:7.7
+Sight multiplicity:10.0
+

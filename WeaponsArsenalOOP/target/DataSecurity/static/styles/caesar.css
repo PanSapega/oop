@@ -1,0 +1,100 @@
+.main-header {
+	text-align: center;
+	font-size: 64px;
+	color: #303030;
+	height: 77px;
+}
+
+#caesar-text {
+	margin-top: 8px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	font-size: 28px;
+}
+
+.form {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.data {
+	width: 350px;
+	height: 80px;
+	margin-top: 7px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.shifts-input {
+	display: flex;
+	justify-content: center;
+}
+
+.shifts-input input {
+	width: 150px;
+	height: 30px;
+	margin-left: 40px;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+
+.buttons {
+	margin-top: 35px;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+    width: 140px;
+    height: 65px;
+    font-size: 36px;
+    background-color: #94E512;
+    color: White;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#decrypt-button {
+	margin-left: 65px;
+}
+
+#result {
+	margin-top: 60px;
+	text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+	#caesar-text {
+		font-size: 40px
+	}
+	
+	.data {
+		width: 270px;
+	}
+	
+	button {
+		width: 110px;
+		font-size: 30px;
+	}
+	
+	#decrypt-button {
+		margin-left: 25px;
+	}
+}
+
+@media screen and (max-width: 341px) {
+	.shifts-input input {
+		margin-top: 10px;
+	}
+}

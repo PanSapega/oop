@@ -1,0 +1,66 @@
+.main-header {
+	text-align: center;
+	font-size: 64px;
+	color: #303030;
+	height: 77px;
+}
+
+#ciphers-text {
+	margin-top: 8px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.items {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 49px;
+}
+
+.cipher-block {
+	background-color: White;
+	border: 2px solid rgba(0, 0, 0, 1.0);
+	width: 241px;
+	height: 83px;
+	font-size: 28px;
+	text-align: center;
+	display: flex;
+}
+
+.cipher-block:active {
+	font-size: 31px;
+}
+
+.cipher-block:hover {
+	border-width: 3px;
+}
+
+.second-block {
+	margin-left: 75px;
+}
+
+.cipher-block-text {
+	color: #303030;
+	margin: auto;
+}
+
+@media screen and (max-width: 570px) {
+	.second-block {
+		margin-left: 0px;
+	}
+	
+	.cipher-block {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.items {
+		flex-direction: column;
+		margin-top: 0px;
+	}
+}

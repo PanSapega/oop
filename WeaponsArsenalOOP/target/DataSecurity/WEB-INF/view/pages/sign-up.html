@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en_US" class="html">
+	<head>
+		<title>Data Security</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link href="../styles/sign-up.css" rel="stylesheet" type="text/css">
+		<link href="../styles/general-styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<a href="info.jsp">
+				<div class="logo">
+					<h1>
+						<span id="first-logo-word">Data</span>
+						<span id="second-logo-word">Security</span>
+					</h1>
+				</div>
+			</a>
+			<div class="header-nav">
+				<div class="lang-menu">
+					<h1 id="lang-text">
+						Language
+					</h1>
+					<ul>
+						<li>
+							<h1>
+								English
+							</h1>
+						</li>
+						<li>
+							<h1>
+								Русский
+							</h1>
+						</li>
+						<li>
+							<h1>
+								Беларуская
+							</h1>
+						</li>
+					</ul>
+				</div>
+				<a href="login.html">
+					<div class="login">
+						<h1 id="login-text">
+							Login
+						</h1>
+					</div>
+				</a>
+			</div>
+		</header>
+		<div class="center-content">
+			<nav>
+				<a href="info.jsp">
+					<div class="info-block">
+						<img class="image" src="../images/info.png"/>
+						<h1>
+							Info
+						</h1>
+					</div>
+				</a>
+				<a href="ciphers.jsp">
+					<div class="ciphers-block">
+						<img class="image" src="../images/ciphers.png"/>
+						<h1>
+							Ciphers
+						</h1>
+					</div>
+				</a>
+			</nav>
+			<main>
+				<div class="main-header">
+					<h1 id="sign-up-text">
+						Log in
+					</h1>
+				</div>
+				<form class="sign-up-form" method="POST" action="login.html">
+					<div class="username-input">
+						<h1>
+							Username:
+						</h1>
+						<input type="text"
+						   placeholder="Input Username"
+						   name="login" maxlength="20" required>
+					</div>
+					<div class="password-input">
+						<h1>
+							Password:
+						</h1>
+						<input type="password"
+						   placeholder="Input Password"
+						   name="password" maxlength="25" required>
+					</div>
+					<div class="repeat-password-input">
+						<h1>
+							Repeat Password:
+						</h1>
+						<input type="password"
+						   placeholder="Repeat Password"
+						   name="password" maxlength="25" required>
+					</div>
+					<button type="submit">
+						Submit
+					</button>
+				</form>
+			</main>
+		</div>
+		<footer>
+			<h1 id="copyright-text">
+				Copyright © 2021
+			</h1>
+			<h1 id="developer-name-text">
+				Alexander Voroshilov
+			</h1>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="plugin-api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/api/plugin-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/api/plugin-api.jar!/" />
+    </SOURCES>
+  </library>
+</component>
